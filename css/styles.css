@@ -2,6 +2,12 @@ body {
     margin: 0px;
 }
 
+h1, h2, h3, h4{
+    font-family: 'RussoOne-Regular'
+    color: #22223B;
+    margin-left: 20px;
+}
+
 .afiorello_personen-grid {
     display: flex;
     flex-wrap: wrap;
