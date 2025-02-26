@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+}
+
+.afiorello_personen-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.afiorello_personen-grid img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 15px;
+    text-align: left; 
+  }
+
+th {
+    text-align: left;
+    background-color: lightgray;
+    color: black;
+    padding: 15px;
+}
+
+/* Abwechselnde Zeilenfarben für bessere Lesbarkeit */
+tr:nth-child(even) {
+   background-color: #f2f2f2; /* Hellgrau für Zeilen mit gerader Zeilenanzahl */
+}
+
+/* Hover-Effekt für Zeilen */
+tr:hover {
+   background-color: #ddd; /* Helle Farbe, wenn die Maus über eine Zeile fährt */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    position: relative; /* Wichtig für das Dropdown-Menü */
+    flex: 1;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+/* Styling der Hauptpunkte (Oberpunkte) */
+nav ul li {
+    background-color: #333;
+}
+
+
+/* Styling für die Dropdown-Elemente */
+nav ul ul {
+    display: none; /* Standardmäßig versteckt */
+    position: absolute;
+}
+
+nav li:hover ul {
+    display: block; /* Zeige das Dropdown, wenn der Benutzer über den Oberpunkt hovert */
+}
+
+
+/* Hover-Effekte für die Unterpunkte */
+nav ul ul li:hover {
+    background-color: #666;
+}
