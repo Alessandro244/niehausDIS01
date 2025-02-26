@@ -4,6 +4,8 @@
 
 # Anzeige beim Titel anpassen mit |
 
+# sections mit <h2> und asides <h3> oder <h4>
+
 # aufteilung content unterseiten
 bildergalerie [tbd]
 equipment - Nadja
@@ -21,6 +23,13 @@ tickets - Alessandro
 trikots - Alessandro
 veranstaltungen - [tbd]
 sponsoren - ?
+
+# next steps
+inhalt für footer finden
+startseite erstellen
+darstellung der Überschriften einen innerhalb des Projekts gehosteten Webfont - Pam
+styling für css gemäß Logo
+bilder erstellen für alle unterseiten - Pam
 
 # tbd
 java einbindung
