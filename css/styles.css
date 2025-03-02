@@ -88,12 +88,12 @@ nav ul ul li:hover {
 /* Navbar für alle Seiten */
 
 /* Styling Unterseite "Trikots" */
-#tasse {
+img#tasse {
     width: 100%;
     max-width: 150px;
 }
 
-#muetze {
+img#muetze {
     width: 100%;
     max-width: 150px;
 }
