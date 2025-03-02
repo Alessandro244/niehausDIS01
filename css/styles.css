@@ -121,6 +121,7 @@ nav ul ul li:hover {
 
 .afiorello_trikots_1, .afiorello_trikots_2 {
     flex: 1 1 45%; /* Jedes Bild nimmt 45% der Breite ein und kann bei Bedarf verkleinert werden */
+    min-width: 300px; /* Mindestbreite der Bilder, verhindert das Umfließen auf zu kleinen Bildschirmen */
     max-width: 100%; /* Verhindert, dass sie über den Container hinausragen */
 }
 
@@ -128,5 +129,6 @@ nav ul ul li:hover {
     width: 100%; /* Die Bilder nehmen die volle Breite des Containers ein */
     height: auto; /* Beibehaltung des Seitenverhältnisses */
 }
+
 
 /* Styling Unterseite "Trikots" */
