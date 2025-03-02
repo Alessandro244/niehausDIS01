@@ -1,4 +1,3 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="Dillinger_0"></a>Dillinger</h1>
 <p class="has-line-data" data-line-start="1" data-line-end="7">1️⃣ Allgemeine Anforderungen<br>
 ✅ Thema: Fiktives oder reales Sport-Team<br>
 ✅ Mindestens 12 HTML-Dokumente<br>
