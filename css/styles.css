@@ -44,7 +44,7 @@ tr:nth-child(even) {
 tr:hover {
    background-color: #ddd; /* Helle Farbe, wenn die Maus über eine Zeile fährt */
 }
-/* Hover-Effekt für Zeilen */
+/* Seitenübergreifendes Styling */
 
 /* Navbar für alle Seiten */
 nav ul {
