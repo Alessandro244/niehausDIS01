@@ -100,13 +100,9 @@ nav ul ul li:hover {
     display: flex;
 }
 
-.afiorello_trikots_1 {
+.afiorello_trikots_1, .afiorello_trikots_2 {
     flex: 1;
     max-width: 100%;
 }
 
-.afiorello_trikots_2 {
-    flex: 1;
-    max-width: 100%;
-}
 /* Styling Unterseite "Trikots" */
