@@ -86,3 +86,16 @@ nav ul ul li:hover {
     background-color: #666;
 }
 /* Navbar für alle Seiten */
+
+/* Styling Unterseite "Trikots" */
+.tasse {
+    width: 100%;
+    max-width: 150px;
+}
+
+.muetze {
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Styling Unterseite "Trikots" */
