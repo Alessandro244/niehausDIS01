@@ -105,10 +105,8 @@ nav ul ul li:hover {
     max-width: 100%;
 }
 
-.afiorello_trikots_1 img,
-.afiorello_trikots_2 img {
-    width: 100%; /* Bilder nehmen die volle Breite des jeweiligen Containers ein */
-    height: auto; /* Beibehaltung des Seitenverhältnisses */
+.afiorello_bild_trikot_1, .afiorello_bild_trikot_2 {
+    width: 100%;
 }
 
 /* Styling Unterseite "Trikots" */
