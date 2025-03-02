@@ -74,6 +74,8 @@ nav ul li {
 nav ul ul {
     display: none; /* Standardmäßig versteckt */
     position: absolute;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
 }
 
 nav li:hover ul {
