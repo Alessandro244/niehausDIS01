@@ -96,4 +96,8 @@ nav ul ul li:hover {
     max-width: 150px;
 }
 
+.afiorello_artikel-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Styling Unterseite "Trikots" */
