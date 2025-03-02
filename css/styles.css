@@ -111,7 +111,7 @@ nav ul ul li:hover {
     flex-wrap: wrap;
 }
 
-figure img {
+.trikot_ice_goats, .trikot_ice_goats_anfangsjahre {
     width: 100%;
 }
 /* Styling Unterseite "Trikots" */
