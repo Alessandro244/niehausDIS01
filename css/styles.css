@@ -91,23 +91,4 @@ nav ul ul li:hover {
 #afiorello_tasse {
     max-width: 150px;
 }
-
-#afiorello_muetze {
-    max-width: 150px;
-}
-
-/* Container mit Flexbox */
-.afiorello_artikel-grid {
-    display: flex;
-    flex-wrap: wrap; /* Ermöglicht Umbruch der Bilder */
-    gap: 20px; /* Abstand zwischen den Bildern */
-    width: 100%; /* Der Container nimmt die gesamte Breite ein */
-}
-
-/* Stile für jedes Trikot-Bild */
-.afiorello_trikots_1,
-.afiorello_trikots_2 {
-    flex: 1 1 48%; /* Jedes Bild nimmt maximal 48% der Breite ein, mit etwas Abstand */
-    box-sizing: border-box; /* Verhindert, dass Padding und Ränder die Gesamtbreite beeinflussen */
-}
 /* Styling Unterseite "Trikots" */
