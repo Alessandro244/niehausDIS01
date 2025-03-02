@@ -1,3 +1,4 @@
+/* Seitenübergreifendes Styling */
 body {
     margin: 0px;
 }
@@ -43,7 +44,9 @@ tr:nth-child(even) {
 tr:hover {
    background-color: #ddd; /* Helle Farbe, wenn die Maus über eine Zeile fährt */
 }
+/* Hover-Effekt für Zeilen */
 
+/* Navbar für alle Seiten */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -68,7 +71,6 @@ nav ul li {
     background-color: #333;
 }
 
-
 /* Styling für die Dropdown-Elemente */
 nav ul ul {
     display: none; /* Standardmäßig versteckt */
@@ -79,8 +81,8 @@ nav li:hover ul {
     display: block; /* Zeige das Dropdown, wenn der Benutzer über den Oberpunkt hovert */
 }
 
-
 /* Hover-Effekte für die Unterpunkte */
 nav ul ul li:hover {
     background-color: #666;
 }
+/* Navbar für alle Seiten */
