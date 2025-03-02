@@ -97,7 +97,6 @@ nav ul ul li:hover {
 }
 
 .Test {
-.trikot-bild {
   display: block;
   margin: 20px auto; /* Zentriert das Bild und fügt Abstand oben und unten hinzu */
   max-width: 100%; /* Stellt sicher, dass das Bild nie größer als der Container wird */
