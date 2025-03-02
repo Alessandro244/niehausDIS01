@@ -101,10 +101,12 @@ nav ul ul li:hover {
 }
 
 .spalte_1 {
+    display: flex;
     flex: 2;
 }
 
 .spalte_2{
+    display: flex;
     flex: 1;
 }
 
