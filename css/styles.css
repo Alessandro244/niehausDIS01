@@ -96,4 +96,20 @@ nav ul ul li:hover {
     max-width: 150px;
 }
 
+.Test {
+    .parallax {
+  background-image: url('dein-trikot-bild.jpg');
+  background-attachment: fixed; /* Parallax-Effekt */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+}
+
 /* Styling Unterseite "Trikots" */
