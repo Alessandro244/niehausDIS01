@@ -97,7 +97,6 @@ nav ul ul li:hover {
 }
 
 .Test {
-    .parallax {
   background-image: url('dein-trikot-bild.jpg');
   background-attachment: fixed; /* Parallax-Effekt */
   background-size: cover;
