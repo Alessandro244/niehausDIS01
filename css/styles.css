@@ -97,17 +97,27 @@ nav ul ul li:hover {
 }
 
 
+/* Allgemeine Stile */
 .afiorello_artikel-grid {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    flex-wrap: wrap; /* Ermöglicht das Umbruchverhalten */
+    justify-content: space-between; /* Verteilt den Platz zwischen den Bildern */
+    gap: 20px; /* Abstand zwischen den Bildern */
 }
 
-.afiorello_trikots_1, .afiorello_trikots_2 {
-    flex: 1;
-    max-width: 100%;
+/* Stile für jedes Trikot-Bild */
+.afiorello_trikots_1,
+.afiorello_trikots_2 {
+    flex: 1 1 45%; /* Jedes Bild nimmt 45% der Breite ein, kann aber kleiner werden */
+    max-width: 48%; /* Maximale Breite der Bilder */
+    box-sizing: border-box; /* Verhindert, dass Padding und Ränder die Gesamtbreite beeinflussen */
 }
 
+.afiorello_bild_trikot_1,
+.afiorello_bild_trikot_2 {
+    width: 100%; /* Stellt sicher, dass die Bilder die gesamte Breite des Containers einnehmen */
+    height: auto; /* Verhindert Verzerrung der Bilder */
+}
 
 
 /* Styling Unterseite "Trikots" */
