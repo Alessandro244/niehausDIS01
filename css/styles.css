@@ -88,12 +88,30 @@ nav ul ul li:hover {
 /* Navbar für alle Seiten */
 
 /* Styling Unterseite "Trikots" */
-#afiorello_tasse {
-    max-width: 150px;
+.afiorello_tasse, .afiorello_muetze {
+    max-width: 400px;
+    margin: 20px;
 }
 
-#afiorello_muetze {
-    max-width: 150px;
+.afiorello_spalten_3_zu_2 {
+    display:flex;
+    flex-wrap: wrap;
 }
 
+.afiorello_spalte_fanartikel {
+    width: 60%;
+}
+
+.afiorello_spalte_verlinkungen {
+    width: 40%;
+}
+
+.afiorello_fanartikel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure img {
+    width: 100%;
+}
 /* Styling Unterseite "Trikots" */
