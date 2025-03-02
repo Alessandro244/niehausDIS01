@@ -96,18 +96,4 @@ nav ul ul li:hover {
     max-width: 150px;
 }
 
-.spalten {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.spalte_1 {
-    flex: 2;
-}
-
-.spalte_2 {
-    flex: 1;
-}
-
 /* Styling Unterseite "Trikots" */
