@@ -85,6 +85,34 @@ nav li:hover ul {
 nav ul ul li:hover {
     background-color: #666;
 }
+
+
+
+
+/* Media Query für Bildschirme unter 600px */
+@media (max-width: 600px) {
+    nav ul {
+        display: block; /* Ändert das Layout zu einem vertikalen Block-Layout */
+    }
+
+    nav a {
+        padding: 15px 20px; /* Etwas weniger Padding für kleinere Bildschirme */
+    }
+
+    /* Dropdown-Menüs bei kleinen Bildschirmen */
+    nav ul ul {
+        position: relative; /* Setzt die Position für Dropdowns */
+        margin-left: 20px;
+    }
+
+    nav li:hover {
+        display: block; /* Zeige das Dropdown beim Hover */
+    }
+}
+
+
+
+
 /* Navbar für alle Seiten */
 
 /* Styling Unterseite "Trikots" */
