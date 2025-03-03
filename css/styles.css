@@ -86,14 +86,6 @@ nav ul ul li:hover {
     background-color: #666;
 }
 
-
-
-
-
-
-
-
-
 /*
 @media (max-width: 600px) {
     nav ul {
@@ -110,39 +102,12 @@ nav ul ul li:hover {
 }
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Navbar für alle Seiten */
 
 /* Styling Unterseite "Trikots" */
 
 .afiorello_tasse, .afiorello_muetze {
-    max-width: 400px;
+    max-width: 300px;
     margin: 20px;
 }
 
