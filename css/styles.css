@@ -105,7 +105,7 @@ nav ul ul li:hover {
     }
 
     nav li:hover {
-        display: block; /* Zeige das Dropdown beim Hover */
+        display: block;
     }
 }
 */
