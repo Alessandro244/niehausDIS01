@@ -88,8 +88,7 @@ nav ul ul li:hover {
 
 
 
-
-/* Media Query für Bildschirme unter 600px */
+/*
 @media (max-width: 600px) {
     nav ul {
         display: block; /* Ändert das Layout zu einem vertikalen Block-Layout */
@@ -109,7 +108,7 @@ nav ul ul li:hover {
         display: block; /* Zeige das Dropdown beim Hover */
     }
 }
-
+*/
 
 
 
