@@ -91,16 +91,16 @@ nav ul ul li:hover {
 /*
 @media (max-width: 600px) {
     nav ul {
-        display: block; /* Ändert das Layout zu einem vertikalen Block-Layout */
+        display: block; 
     }
 
     nav a {
-        padding: 15px 20px; /* Etwas weniger Padding für kleinere Bildschirme */
+        padding: 15px 20px;
     }
 
-    /* Dropdown-Menüs bei kleinen Bildschirmen */
+
     nav ul ul {
-        position: relative; /* Setzt die Position für Dropdowns */
+        position: relative;
         margin-left: 20px;
     }
 
