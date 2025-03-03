@@ -110,6 +110,64 @@ nav ul ul li:hover {
 }
 */
 
+
+
+
+
+
+
+@media (max-width: 600px) {
+    nav ul {
+        display: block; /* Das Menü wird als Block angezeigt */
+    }
+
+    nav a {
+        padding: 15px 20px;
+    }
+
+    nav ul ul {
+        position: relative;
+        margin-left: 0; /* Entfernt den Abstand, der bei größeren Bildschirmgrößen vorhanden ist */
+        display: block; /* Alle Dropdown-Elemente sind standardmäßig sichtbar */
+    }
+
+    nav li ul li {
+        background-color: #333; /* Stellt sicher, dass Unterpunkte wie die Hauptmenüpunkte aussehen */
+    }
+
+    /* Entferne den Hover-Effekt für mobile Ansichten */
+    nav li:hover {
+        display: block; /* Dieser Effekt ist jetzt nicht mehr nötig */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Navbar für alle Seiten */
 
 /* Styling Unterseite "Trikots" */
