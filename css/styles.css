@@ -86,7 +86,7 @@ nav ul ul li:hover {
     background-color: #666;
 }
 
-/*
+
 @media (max-width: 1024px) {
     nav ul {
         display: block; 
@@ -95,12 +95,9 @@ nav ul ul li:hover {
         margin-left: 20px;
     }
 
-    nav ul ul {
-        position: relative;
-        display: block; 
-    }
+
 }
-*/
+
 
 /* Navbar für alle Seiten */
 
