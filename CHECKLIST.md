@@ -23,7 +23,7 @@ Jedes HTML-Dokument muss folgende Struktur haben:<br>
 ✅ Mindestens zwei &lt;section&gt; für Inhalte<br>
 ✅ Mindestens zwei &lt;figure&gt; für Bilder/Grafiken<br>
 ✅ Mindestens zwei &lt;aside&gt; für Zusatzinfos (z. B. Social Media, News, externe Links)<br>
-✅ Footer: Verlinkung mit Impressum (ist üblich)</p>, Deutschland: https://www.penny-del.org/startseite, International: https://www.iihf.com/
+✅ Footer: Verlinkung mit Impressum (ist üblich), Deutschland: https://www.penny-del.org/startseite, International: https://www.iihf.com/</p>
 <p class="has-line-data" data-line-start="30" data-line-end="36">3️⃣ Inhaltliche Anforderungen<br>
 Jede HTML-Datei benötigt:<br>
 ✅ Mindestens 2 &lt;aside&gt; mit je einem Kurzbeitrag (intern oder extern)<br>
