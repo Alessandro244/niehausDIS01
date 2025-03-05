@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trikots | IceGoats</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/fonts.css">
 </head>
 <body>
  <nav>
@@ -70,34 +70,13 @@
         <section>
             <h2>Unser Trikot</h2>
             <figure>
-                <img class="trikot_ice_goats" src="../bilder/trikot.jpeg" alt="Foto vom Trikot der Ice Goats">
+                <img id="trikot_ice_goats" src="../bilder/trikot.jpeg" alt="Foto vom Trikot der Ice Goats">
             </figure>
         </section>
-        <!--<section>
-            <h2>Hol dir dein Trikot!</h2>
-            <form action="/submit" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-        
-                <label for="adresse">Anschrift:</label>
-                <input type="text" id="adresse" name="adresse" required><br><br>
-        
-                <label for="bemerkung">Bemerkung:</label><br>
-                <textarea id="bemerkung" name="bemerkung" rows="4" cols="50"></textarea><br><br>
-        
-                <label for="trikot">Trikot Auswahl:</label><br>
-                <select id="trikot" name="trikot" required>
-                    <option value="trikot_1">Trikot 1</option>
-                    <option value="trikot_2">Trikot 2</option>
-                </select><br><br>
-        
-                <button type="submit">Trikot kaufen</button>
-            </form>
-        </section>-->
         <section>
             <h2>Die Geschichte unseres Trikots</h2>
             <figure>
-                <img class="trikot_ice_goats_anfangsjahre" src="../bilder/trikot_anfangsjahre.jpeg" alt="Foto vom Trikot der Ice Goats in den Anfangsjahren">
+                <img id="trikot_ice_goats_anfangsjahre" src="../bilder/trikot_anfangsjahre.jpeg" alt="Foto vom Trikot der Ice Goats in den Anfangsjahren">
             </figure>
             <figcaption>Unser Trikot in den Anfangsjahren</figcaption>
             <p>Seit unserer Gründung haben sich unsere Trikots stark verändert, aber unsere Inspiration und Designvorstellung sind immer gleich geblieben.</p>
@@ -105,9 +84,9 @@
         </section>
     </main>
     <div class="afiorello_spalten_3_zu_2">
-        <aside class="afiorello_spalte_fanartikel">
+        <aside id="afiorello_spalte_fanartikel">
             <h4>Fanartikel</h4>
-            <div class="afiorello_fanartikel">
+            <div id="afiorello_fanartikel">
                 <div class="afiorello_tasse">
             <h5>Ice Goats Tasse</h5>
             <img class="afiorello_tasse" src="../bilder/tasse.jpeg" alt="Foto von einer Tasse mit dem Ice Goats Logo">
@@ -120,17 +99,25 @@
                </div>
             </div>
         </aside>
-    <aside class="afiorello_spalte_verlinkugen"> 
+    <aside id="afiorello_spalte_verlinkugen"> 
         <h4>Tickets für die nächsten Spiele</h4>
         <p>Sichere dir jetzt deine Tickets für kommende Spiele!</p>
         <a href="../unterseiten/tickets.html">Tickets jetzt kaufen</a>
         <h4>Neuigkeiten und Aktuelles</h4>
         <p>Bleibe auf dem Laufenden mit den neuesten Ergebnissen und Events der Ice Goats!</p>
         <a href="../unterseiten/neuigkeiten.html">Zu den Neuigkeiten</a>
+        <h4>Spielplan der Ice Goats</h4>
+        <p>Schau dir den Spielplan der nächsten Spiele der Ice Goats an!</p>
+        <a href="../unterseiten/spielplan.html">Zum Spielplan</a>
+        <h4>Spieler der Ice Goats</h4>
+        <p>Schau dir die Teamaufstellung der Ice Goats an!</p>
+        <a href="../unterseiten/team.html">Zum Team</a>
     </aside>
     </div>
-    <footer>
-        
-    </footer>
+<footer>
+    <a href="impressum.html">Impressum</a>
+    <a href="kontakt.html">Kontakt</a>
+    <p>&copy; 2025 Ice Goats</p>
+  </footer>
 </body>
 </html>
