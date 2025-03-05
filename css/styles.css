@@ -6,6 +6,10 @@ dunkles Grau: #314555
  */
 
 /* Seitenübergreifendes Styling */
+body {
+    margin: 0px;
+}
+
 body > *:not(nav) {
     margin: auto;
     font-family: Arial; 
