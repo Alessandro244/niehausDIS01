@@ -186,7 +186,7 @@ iframe {
 
 
 /* Styling Unterseite "Team" */
-#afiorello_teamfoto_spieler, #afiorello_spieler_auf_eis {
+.afiorello_spieler {
     width: 100%;
 }
 
