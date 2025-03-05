@@ -9,6 +9,8 @@ dunkles Grau: #314555
 body {
     margin: 0px;
     font-family: Arial; 
+    width: min(2000px, calc(70vw + 200px));
+    max-width: 95vw;
 }
 
 /* Schrifteinbindung über Font Face*/
