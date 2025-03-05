@@ -179,7 +179,7 @@ nav ul ul li:hover {
 /* Styling Unterseite "Standort" */
 
 iframe {
-    width: 100%;
+    max-width: min(100%, 1000px)
 }
 
 /* Styling Unterseite "Standort" */
