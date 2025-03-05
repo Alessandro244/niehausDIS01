@@ -158,20 +158,20 @@ nav ul ul li:hover {
     flex-wrap: wrap;
 }
 
-.afiorello_spalte_fanartikel {
+#afiorello_spalte_fanartikel {
     width: 60%;
 }
 
-.afiorello_spalte_verlinkungen {
+#afiorello_spalte_verlinkungen {
     width: 40%;
 }
 
-.afiorello_fanartikel {
+#afiorello_fanartikel {
     display: flex;
     flex-wrap: wrap;
 }
 
-.trikot_ice_goats, .trikot_ice_goats_anfangsjahre {
+#trikot_ice_goats, #trikot_ice_goats_anfangsjahre {
     width: 100%;
 }
 /* Styling Unterseite "Trikots" */
