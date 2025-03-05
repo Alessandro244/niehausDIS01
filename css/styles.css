@@ -7,7 +7,7 @@ dunkles Grau: #314555
 
 /* Seitenübergreifendes Styling */
 body {
-    margin: 0px;
+    margin: auto;
     font-family: Arial; 
     width: min(2000px, calc(70vw + 200px));
     max-width: 95vw;
