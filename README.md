@@ -25,15 +25,15 @@ veranstaltungen - [tbd]
 sponsoren - ?
 
 # next steps
-inhalt für footer finden
+inhalt für footer finden - done
 startseite erstellen
-darstellung der Überschriften einen innerhalb des Projekts gehosteten Webfont - Pam
-styling für css gemäß Logo
+darstellung der Überschriften einen innerhalb des Projekts gehosteten Webfont - Pam - done
+styling für css gemäß Logo - done
 bilder erstellen für alle unterseiten - Pam
 
 # tbd
 java einbindung
-css stylesheet aufbauen - Farbschema
+css stylesheet aufbauen - Farbschema - done
 
 # ToDo gemäß Aufgabe
 - Dokumentation- Kommentare -> Vorgehensweise verständlich machen und Pflege des Codes ermöglichen
