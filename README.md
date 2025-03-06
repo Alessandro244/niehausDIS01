@@ -58,3 +58,24 @@ main
 aside
 aside
 footer
+
+
+
+- Responsivität funktioniert 
+- Code ist einheitlich formatiert
+- alle class und section ids mit afiorello_...
+- vorzugsweise möglichst übergreifend gültige classes, seltener ids (nur individuell vergeben!)
+- der Header ist einheitlich
+- Alle Verlinkungen (auch in der Navbar und im Footer) funktionieren
+- das # bei Historie in der navbar ist entfernt
+- korrekte Bilder mit verborgenem Alttext
+- Inhalte ohne grobe inhaltliche oder Rechtschreibfehler
+- 2 sections mit figures
+- 2 asides
+- 4 interne Links
+- 2 externe Links
+- 2 Überschriftebenen
+- Layout nur mit CSS
+- Code ist einheitlich formatiert
+- Code ist sinnvoll kommentiert (CSS, JS)
+- Code erfüllt alle Bedingungen von Niehaus (z.B. 2 asides)
