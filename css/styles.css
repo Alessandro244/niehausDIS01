@@ -6,6 +6,10 @@
 --charcoal: #244e64ff;
 */
 
+footer {
+    background-color: #244e64ff;
+}
+
 /* Startseite */
 body.afiorello_index {
     background-image: url("../bilder/backgroundimage.jpg");
