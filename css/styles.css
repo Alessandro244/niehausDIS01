@@ -33,6 +33,7 @@ body > *:not(nav):not(footer) {
 footer {
     text-align: center;
     background-color: #333
+    padding: 10px;
 }
 
 footer p {
