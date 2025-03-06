@@ -121,8 +121,20 @@ nav ul ul li:hover {
     background-color: #666;
 }
 
+#afiorello_hamburger_button {
+    display: none;
+}
+
+.aktiv {
+    display: block;
+}
 
 @media (max-width: 768px) {
+
+    #afiorello_navigationsleiste {
+        display: none;
+    }
+
     nav ul {
         display: block; 
     }
@@ -130,11 +142,27 @@ nav ul ul li:hover {
         margin-left: 20px;
     }
 
-        nav ul ul {
-        position: relative;
-        display: block; 
+    nav ul ul {
+    position: relative;
+    display: block; 
     }
 
+    #afiorello_hamburger_button {
+        display: block;
+    }
+
+    #afiorello_navigationsleiste.aktiv {
+        display: block; /* Menü wird sichtbar */
+    }
+    
+    #afiorello_button_styling {
+        display: flex;
+        justify-content: center; /* Zentriert horizontal */
+        align-items: center; /* Zentriert vertikal */
+        height: 40px;
+        background-color: #333; 
+    }
+    
 }
 
 /* Styling Unterseite "Trikots" */
