@@ -38,6 +38,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: grey
+}
+
 /* Schrifteinbindung über Font Face*/
 @font-face {
     font-family: 'Russo One';
