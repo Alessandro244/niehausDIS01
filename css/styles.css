@@ -30,7 +30,7 @@ body > *:not(nav) {
     max-width: 95vw;
 }
 
-figure {
+figure, img, div {
     margin: 0px;
 }
 
