@@ -30,6 +30,10 @@ body > *:not(nav) {
     max-width: 95vw;
 }
 
+figure {
+    margin: 0px;
+}
+
 /* Schrifteinbindung über Font Face*/
 @font-face {
     font-family: 'Russo One';
