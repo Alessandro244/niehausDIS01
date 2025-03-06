@@ -8,7 +8,7 @@
 
 /* Startseite */
 body.afiorello_index {
-    background-image: url("../bilder/iglogo.jpg");
+    background-image: url("../bilder/backgroundimage.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
