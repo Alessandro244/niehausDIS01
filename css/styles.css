@@ -30,6 +30,14 @@ body > *:not(nav):not(footer) {
     max-width: 95vw;
 }
 
+footer {
+    text-align: center;
+}
+
+footer p {
+    background-color: #333
+}
+
 figure, img, div {
     margin: 0px;
 }
