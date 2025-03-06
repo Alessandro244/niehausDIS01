@@ -23,7 +23,7 @@ body {
     color: #d0dce1ff;
 }
 
-body > *:not(nav) {
+body > *:not(nav):not(footer) {
     margin: auto;
     font-family: Arial; 
     width: min(2000px, calc(70vw + 200px));
