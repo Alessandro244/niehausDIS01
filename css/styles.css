@@ -6,6 +6,13 @@
 --charcoal: #244e64ff;
 */
 
+/* Startseite */
+body.afiorello_index {
+    background-image: url("../bilder/iglogo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 /* Seitenübergreifendes Styling */
 body {
     margin: 0px;
