@@ -20,7 +20,6 @@ body {
     background: linear-gradient(to bottom, #172431ff, #233240ff);
     /*Textfarbe */
     color: #d0dce1ff;
-    
 }
 
 body > *:not(nav) {
