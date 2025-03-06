@@ -1,5 +1,4 @@
-/* NEUE FARBEN:
-CSS HEX
+/* CSS HEX
 --gunmetal: #233240ff;
 --platinum: #d0dce1ff;
 --gunmetal-2: #172431ff;
@@ -7,17 +6,14 @@ CSS HEX
 --charcoal: #244e64ff;
 */
 
-/*Farben für CSS
-dunkles Blau: #142232
-helles Blau: #E4FFFF
-helles Grau: #C5CBCF
-dunkles Grau: #314555
- */
-
 /* Seitenübergreifendes Styling */
 body {
     margin: 0px;
     font-family: Arial; 
+    background: linear-gradient(to bottom, #172431ff, #233240ff);
+    /*Textfarbe */
+    color: #d0dce1ff;
+    
 }
 
 body > *:not(nav) {
