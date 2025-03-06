@@ -34,6 +34,10 @@ figure, img, div {
     margin: 0px;
 }
 
+a {
+    color: white;
+}
+
 /* Schrifteinbindung über Font Face*/
 @font-face {
     font-family: 'Russo One';
