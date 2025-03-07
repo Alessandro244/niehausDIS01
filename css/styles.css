@@ -72,16 +72,23 @@ h1, h2, h3, h4{
     flex-wrap: wrap;
 }
 
+.afiorello_personen-grid img {
+    width: 100%;
+    max-width: 150px;
+}
+
+
 /*Styling header */
 .afiorello_elemente_flex{
     display: flex;
     flex-wrap: wrap;
 }
-
-.afiorello_personen-grid img {
-    width: 100%;
-    max-width: 150px;
+.afiorello_elemente_flex img{
+width: 100%;
+max-width: 150px;
+height: auto;
 }
+
 
 table {
     width: 100%;
