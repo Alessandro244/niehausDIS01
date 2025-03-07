@@ -215,6 +215,15 @@ nav ul ul li:hover {
     
 }
 
+/*Styling Unterseite Saison*/
+.afiorello_saisontabellen img {
+    display: flex;
+    float: right;
+    margin: 10px auto;
+    max-width: 80px;
+    height: auto;
+}
+
 /* Styling Unterseite "Trikots" */
 
 .afiorello_tasse, .afiorello_muetze {
