@@ -9,7 +9,7 @@
 /* Startseite */
 body.afiorello_index {
     background-image: url("../bilder/backgroundimage.jpg");
-    background-size: cover;
+    background-size: 85%;
     background-position: center;
     background-attachment: fixed;
 }
