@@ -219,6 +219,7 @@ nav ul ul li:hover {
 .afiorello_personen-grid img {
     width: 100%;
     max-width: 150px;
+    height: auto;
 }
 
 /* Styling trikots.html */
