@@ -80,18 +80,6 @@ h1, h2, h3, h4{
     color: #d0dce1ff;
 }
 
-/* XXXXXX */
-.afiorello_personen-grid {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.afiorello_personen-grid img {
-    width: 100%;
-    max-width: 150px;
-}
-
-
 /*Styling header */
 .afiorello_header{
     display: flex;
@@ -212,10 +200,8 @@ nav ul ul li:hover {
         height: 40px;
         background-color: #0D141C; 
     }
-    
-}
 
-/*Styling Unterseite Saison*/
+/*Styling saison.html*/
 .afiorello_saisontabellen img {
     display: flex;
     float: right;
@@ -224,7 +210,18 @@ nav ul ul li:hover {
     height: auto;
 }
 
-/* Styling Unterseite "Trikots" */
+/* Styling personen.html */
+.afiorello_personen-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.afiorello_personen-grid img {
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Styling trikots.html */
 
 .afiorello_tasse, .afiorello_muetze {
     max-width: 300px;
@@ -253,22 +250,22 @@ nav ul ul li:hover {
     width: 100%;
 }
 
-/* Styling Unterseite "Standort" */
+/* Styling standort.html */
 iframe {
     max-width: min(100%, 1000px)
 }
 
-/* Styling Unterseite "Team" */
+/* Styling team.html */
 .afiorello_spieler {
     width: 100%;
 }
 
-/* Styling Unterseite "Tickets" */
+/* Styling tickets.html */
 .ticket_ice_goats {
     width: 100%;
 }
 
-/* Styling Unterseite "Impressum" */
+/* Styling impressum.html */
 #logo_th_koeln {
     width: 200px;
 }
