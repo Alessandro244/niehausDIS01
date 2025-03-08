@@ -87,21 +87,8 @@ h1, h2, h3, h4{
     color: #d0dce1ff;
 }
 
-/*Styling header */
-.afiorello_header{
-    display: flex;
-    flex-wrap: wrap;
-}
-.afiorello_header img{
-width: 100%;
-max-width: 150px;
-height: auto;
-margin-right:5%
-}
-
-
 table {
-    width: 100%;
+    width: 85%;
 }
 
 td {
@@ -124,6 +111,18 @@ tr:nth-child(even) {
 /* Hover-Effekt für Zeilen */
 tr:hover {
    background-color: #ddd; /* Helle Farbe, wenn die Maus über eine Zeile fährt */
+}
+
+/*Styling header */
+.afiorello_header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.afiorello_header img{
+width: 100%;
+max-width: 150px;
+height: auto;
+margin-right:5%
 }
 
 /* Navbar für alle Seiten */
@@ -207,7 +206,7 @@ nav ul ul li:hover {
         height: 40px;
         background-color: #0D141C; 
     }
-}
+
 
 /*Styling saison.html*/
 .afiorello_saisontabellen img {
