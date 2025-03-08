@@ -69,14 +69,6 @@ a:hover {
     gap: 20px;
 }
 
-.afiorello_section img {
-    display:block;
-    max-width: 75%;
-    max-height: 300px;
-    height: auto;
-    margin: 0 auto 5%;
-}
-
 /* Schrifteinbindung über Font Face*/
 @font-face {
     font-family: 'Russo One';
@@ -269,4 +261,13 @@ iframe {
 /* Styling impressum.html */
 #afiorello_logo_th_koeln {
     width: 200px;
+}
+
+*/ Styling Historie.html */
+.afiorello_section img {
+    display:block;
+    max-width: 75%;
+    max-height: 300px;
+    height: auto;
+    margin: 0 auto 5%;
 }
