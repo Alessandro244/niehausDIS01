@@ -103,7 +103,7 @@ td {
 
 /* Abwechselnde Zeilenfarben für bessere Lesbarkeit */
 tr:nth-child(even) {
-   background-color: #f2f2f2; /* Hellgrau für Zeilen mit gerader Zeilenanzahl */
+   background-color: #D0DCE1; /* Hellgrau für Zeilen mit gerader Zeilenanzahl */
 }
 
 /* Hover-Effekt für Zeilen */
