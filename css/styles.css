@@ -208,6 +208,10 @@ nav ul ul li:hover {
 
 /* Call 18 Uhr */
 /*Styling saison.html*/
+
+.afiorello_saisontabelle {
+    margin-bottom: 30px;
+}
 .afiorello_saisontabellen img {
     display: flex;
     float: right;
