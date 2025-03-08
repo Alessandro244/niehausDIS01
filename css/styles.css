@@ -16,7 +16,7 @@ body.afiorello_index {
 
 .afiorello_section-index img{
     display: block;
-    max-height: 500;
+    max-height: 500px;
     height: auto;
     margin: 0 auto 5%;
 }
