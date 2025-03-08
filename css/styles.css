@@ -59,6 +59,10 @@ a:hover {
     color: #B0B0B0;
 }
 
+.afiorello_breite_img {
+    width: 100%;
+}
+
 .afiorello_main-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -255,23 +259,9 @@ nav ul ul li:hover {
     flex-wrap: wrap;
 }
 
-.trikot_ice_goats {
-    width: 100%;
-}
-
 /* Styling standort.html */
 iframe {
-    max-width: min(100%, 1000px)
-}
-
-/* Styling team.html */
-.afiorello_spieler {
-    width: 100%;
-}
-
-/* Styling tickets.html */
-.ticket_ice_goats {
-    width: 100%;
+    width: min(100%, 1000px)
 }
 
 /* Styling impressum.html */
