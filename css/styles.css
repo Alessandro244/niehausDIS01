@@ -208,7 +208,6 @@ nav ul ul li:hover {
     }
 }  
 
-/* Call 18 Uhr */
 /*Styling saison.html*/
 
 .afiorello_ligatabelle {
@@ -242,7 +241,7 @@ nav ul ul li:hover {
     margin-right: 10px;
 }
 
-.afiorello_spalten_3_zu_2 {
+#afiorello_spalten_3_zu_2 {
     display:flex;
     flex-wrap: wrap;
 }
