@@ -286,6 +286,10 @@ iframe {
     flex-wrap: wrap;
 }
 
+.afiorello_sponsoren-grid figure {
+    margin-bottom: 50px;
+}
+
 .afiorello_sponsoren-grid img {
     width: 100%;
     max-width: 400px;
