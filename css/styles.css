@@ -213,13 +213,6 @@ nav ul ul li:hover {
 .afiorello_ligatabelle {
     margin-bottom: 30px;
 }
-.afiorello_saisontabellen img {
-    display: flex;
-    float: right;
-    margin: 10px auto;
-    max-width: 80px;
-    height: auto;
-}
 
 /* Styling personen.html */
 .afiorello_personen-grid {
