@@ -64,7 +64,7 @@ a:hover {
     width: 100%;
 }
 
-#afiorello_main-grid {
+.afiorello_main-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
