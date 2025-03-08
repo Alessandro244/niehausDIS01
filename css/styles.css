@@ -111,6 +111,7 @@ tr:nth-child(even) {
 /* Hover-Effekt für Zeilen */
 tr:hover {
    background-color: #2B5D78; /* Konstrastfarbe, wenn die Maus über eine Zeile fährt */
+   color: #d0dce1ff;
 }
 
 /*Styling header */
