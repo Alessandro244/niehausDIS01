@@ -67,7 +67,7 @@ a:hover {
 #afiorello_main-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 50px;
 }
 
 /* Schrifteinbindung über Font Face*/
