@@ -265,9 +265,6 @@ iframe {
 
 /* Styling historie.html */
 .afiorello_img_historie {
-    display:block;
     max-width: 75%;
     max-height: 300px;
-    height: auto;
-    margin: 0 auto 5%;
 }
