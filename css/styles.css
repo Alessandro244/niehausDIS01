@@ -291,6 +291,11 @@ iframe {
     margin-bottom: 50px;
 }
 
+.afiorello_sponsoren-grid figcaption {
+    text-align: center;
+}
+
+
 .afiorello_sponsoren-grid img {
     width: 100%;
     max-width: 400px;
