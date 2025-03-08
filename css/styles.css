@@ -279,3 +279,40 @@ iframe {
 .afiorello_h2_historie_margin {
     margin-top: 0px;
 }
+
+/* Styling sponsoren.html */
+.afiorello_hauptsponsoren {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Abstand zwischen den Sponsoren */
+    flex-wrap: wrap; /* Falls Bildschirm zu schmal, umbrechen */
+}
+
+.afiorello_hauptsponsoren figure {
+    text-align: center;
+    max-width: 250px; /* Größe der Sponsoren begrenzen */
+}
+
+.afiorello_hauptsponsoren img {
+    width: 100%;
+    height: auto;
+    max-width: 200px; /* Logos skalieren */
+
+.afiorello_sponsoren-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible Spalten */
+    gap: 20px; /* Abstand zwischen den Logos */
+    justify-items: center; /* Logos mittig ausrichten */
+}
+
+.afiorello_sponsoren-grid figure {
+    text-align: center;
+    max-width: 150px;
+}
+
+.afiorello_sponsoren-grid img {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+}
+
