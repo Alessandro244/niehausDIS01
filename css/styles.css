@@ -270,6 +270,7 @@ nav ul ul li:hover {
 /* Styling standort.html */
 iframe {
     width: min(100%, 1000px)
+    margin: 0px 15px 5px 0px;
 }
 
 /* Styling impressum.html */
