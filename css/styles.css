@@ -7,6 +7,11 @@
 */
 
 /* Startseite */
+
+:root {
+    --width: 100%;
+}
+
 body.afiorello_index {
     background-image: url("../bilder/backgroundimage.jpg");
     background-size: cover;
@@ -63,6 +68,16 @@ a {
 
 a:hover {
     color: #B0B0B0;
+}
+
+.afiorello_sektionen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.afiorello_img_breite {
+    width: var(--width)
 }
 
 .afiorello_main-grid {
