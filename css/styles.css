@@ -23,10 +23,6 @@ body.afiorello_index {
 
 /* Seitenübergreifendes Styling */
 
-:root {
-  --width: 100%;
-}
-
 body {
     margin: 0px;
     font-family: Arial; 
@@ -73,10 +69,6 @@ a {
 
 a:hover {
     color: #B0B0B0;
-}
-
-.afiorello_breite_img {
-    width: var(--width);
 }
 
 .afiorello_main-grid {
@@ -236,7 +228,6 @@ nav ul ul li:hover {
 }
 
 .afiorello_personen-grid img {
-    width: 100%;
     max-width: 400px;
     margin: 1em 5em 1em 0em;
 }
@@ -309,7 +300,6 @@ iframe {
 
 
 .afiorello_sponsoren-grid img {
-    width: 100%;
     max-width: 300px;
 }
 
