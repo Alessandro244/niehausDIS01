@@ -77,7 +77,7 @@ a:hover {
 }
 
 .afiorello_breite_img {
-    width: 100%;
+    width: var(--width);
 }
 
 .afiorello_main-grid {
