@@ -7,3 +7,52 @@
            navbar.classList.toggle("aktiv"); // Fügt der ul in der navbar die Klasse "aktiv" zu oder entfernt sie, um das Aufklappen der einspaltigen navbar per CSS bei kleinen Bildschirmbreiten sichtbar zu machen
        });
 
+// Nachladen von je 2 Bildern in der bildergalerie.html
+// Array mit Bildpfaden und Bildbeschreibungen
+const images = [
+    { src: "../bilder/fotograph_match.jpeg", caption: "Match" },
+    { src: "../bilder/interview_spieler.jpeg", caption: "Interview" },
+    { src: "../bilder/interview_spielerin.jpeg", caption: "Fans feuern das Team an" },
+    { src: "../bilder/keinbahn.jpeg", caption: "Stadionvater Kurt Einbahn" },
+    { src: "../bilder/mannschaft_spieler.jpeg", caption: "Torhüter mit Glanzparade" },
+    { src: "../bilder/mannschaftsfoto_sieg.jpeg", caption: "siegreiche Ice Goats!" }
+];
+
+let index = 0; // Speichert, welches Bild als nächstes geladen wird
+
+function createFigures() {
+    const gallery = document.getElementById("gallery");
+
+    // Maximal 2 neue Bilder auf einmal hinzufügen
+    for (let i = 0; i < 2; i++) {
+        if (index >= images.length) {
+            alert("Keine weiteren Bilder verfügbar!");
+            return;
+        }
+
+        // Neues figure-Element erstellen
+        const figure = document.createElement("figure");
+
+        // Bild erstellen
+        const img = document.createElement("img");
+        img.src = images[index].src;
+        img.alt = images[index].caption;
+
+        // figcaption hinzufügen
+        const caption = document.createElement("figcaption");
+        caption.textContent = images[index].caption;
+
+        // Elemente in <figure> einfügen
+        figure.appendChild(img);
+        figure.appendChild(caption);
+
+        // Figure in die Galerie einfügen
+        gallery.appendChild(figure);
+
+        index++; // Nächstes Bild im Array verwenden
+    }
+}
+
+// Event Listener für den Button
+document.getElementById("load-images").addEventListener("click", createFigures);
+
