@@ -22,6 +22,11 @@ body.afiorello_index {
 }
 
 /* Seitenübergreifendes Styling */
+
+:root {
+  --width: 100%;
+}
+
 body {
     margin: 0px;
     font-family: Arial; 
