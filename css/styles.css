@@ -48,6 +48,10 @@ body > *:not(nav):not(footer) {
     gap: 50px;
 }
 
+.afiorello_sektionen_display_block {
+    display: block;
+}
+
 
 p {
     margin: 10px 0px 10px 0px;
