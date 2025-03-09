@@ -37,6 +37,10 @@ body > *:not(nav):not(footer) {
     max-width: 95vw;
 }
 
+p {
+    margin: 10px 0px 10px 0px;
+}
+
 footer {
     text-align: center;
     background-color: #172431;
