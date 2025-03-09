@@ -38,12 +38,6 @@ body > *:not(nav):not(footer) {
     max-width: 95vw;
 }
 
-.afiorello_sektionen_grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
 p {
     margin: 10px 0px 10px 0px;
 }
