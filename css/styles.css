@@ -339,4 +339,8 @@ details {
         margin-right: 0px;
         max-width: 300px;
     }
+
+     .afiorello_personen-grid figure {
+         margin-bottom: 20px;
+     }
 }  
