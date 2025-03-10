@@ -347,4 +347,8 @@ details {
     h1 {
         font-size: 3em;
     }
+
+    #afiorello_logo_bildergalerie {
+        max-width: 300px;
+    }
 }  
