@@ -192,6 +192,7 @@ nav ul ul li:hover {
 
 @media (max-width: 768px) {
 
+    /* Seitenübergreifendes Styling bei kleinen Ansichten */ 
     #afiorello_navigationsleiste {
         display: none;
     }
@@ -221,6 +222,12 @@ nav ul ul li:hover {
         align-items: center; /* Zentriert vertikal */
         height: 40px;
         background-color: #0D141C; 
+    }
+
+
+     /* dsnmfjksjdjh */
+    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2 {
+        display: block;
     }
 }  
 
