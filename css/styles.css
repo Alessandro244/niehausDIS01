@@ -279,11 +279,7 @@ iframe {
     max-width: 300px;
 }
 
-
-
-
-
-
+/* Styling neuigkeiten.html */
 .afiorello_75_img {
     width: 75%;
 }
@@ -294,7 +290,8 @@ details {
     margin: 0px 0px 5px 0px;
 }
 
-/* Medienabfrage für Navbar und Responsivität bei kleinen Ansichten */
+
+/* Medienabfrage für Navbar und Gewährleistung von Responsivität bei kleinen Ansichten */
 @media (max-width: 768px) {
 
     /* Seitenübergreifendes Styling bei kleinen Ansichten */ 
@@ -329,8 +326,7 @@ details {
         background-color: #0D141C; 
     }
 
-
-     /* dsnmfjksjdjh */
+     /* Gewährleistung von Responsivität bei kleinen Ansichten für Unterseiten und Startseite */
     .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2, .afiorello_main-grid, .afiorello_personen-grid {
         display: block;
     }
