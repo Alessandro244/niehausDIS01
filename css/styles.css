@@ -37,7 +37,7 @@ body {
 body > *:not(nav):not(footer) { /* Spricht alle direkten Kinderelemente vom body mit Ausnahme von der nav und dem footer an */
     margin: auto;
     font-family: Arial; 
-    width: min(2000px, calc(70vw + 200px));
+    width: min(2000px, calc(70vw + 200px)); /* Setzt die width auf den kleineren Wert innerhalb der min () Funktion */
     max-width: 95vw;
 }
 
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .afiorello_img_breite {
-    width: var(--width)
+    width: var(--width) /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
 }
 
 .afiorello_main-grid {
@@ -102,7 +102,7 @@ h1 {
 }
 
 table {
-    width: var(--width)
+    width: var(--width) /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
 }
 th {
     text-align: center;
@@ -116,15 +116,13 @@ td {
     text-align: center; 
   }
 
-/* Abwechselnde Zeilenfarben für bessere Lesbarkeit */
-tr:nth-child(even) {
+tr:nth-child(even) { /* Abwechselnde Zeilenfarben für bessere Lesbarkeit */
     background-color: #D0DCE1;
     color: #172431;
 }
 
 
-/* Hover-Effekt für Zeilen */
-tr:hover {
+tr:hover { /* Hover-Effekt für Zeilen */
    background-color: #2B5D78; /* Konstrastfarbe, wenn die Maus über eine Zeile fährt */
 }
 
@@ -134,7 +132,7 @@ tr:hover {
     flex-wrap: wrap;
 }
 .afiorello_header img{
-width: var (--width)
+width: var (--width) /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
 max-width: 150px;
 margin-right: 3%
 }
@@ -159,12 +157,10 @@ nav a {
     display: block;
 }
 
-/* Styling der Hauptpunkte (Oberpunkte) */
 nav ul li {
     background-color: #0D141C;
 }
 
-/* Styling für die Dropdown-Elemente */
 nav ul ul {
     display: none; /* Standardmäßig versteckt */
     position: absolute;
@@ -174,7 +170,6 @@ nav li:hover ul {
     display: block; /* Zeige das Dropdown, wenn der Benutzer über den Oberpunkt hovert */
 }
 
-/* Hover-Effekte für die Unterpunkte */
 nav ul ul li:hover {
     background-color: #244E64;
 }
@@ -213,7 +208,7 @@ nav ul ul li:hover {
 }
 
 #afiorello_spalten_3_zu_2 {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -232,7 +227,7 @@ nav ul ul li:hover {
 
 /* Styling standort.html */
 iframe {
-    width: min(100%, 1000px);
+    width: min(100%, 1000px); /* Setzt die width auf den kleineren Wert innerhalb der min () Funktion */
     margin: 0px 15px 10px 0px;
 }
 
@@ -317,12 +312,13 @@ summary {
     position: relative;
     display: block; 
     }
+    
     #afiorello_hamburger_button {
         display: block;
     }
 
-    #afiorello_navigationsleiste.aktiv {
-        display: block; /* Menü wird sichtbar */
+    #afiorello_navigationsleiste .aktiv {
+        display: block; /* Menü wird sichtbar durch Klick auf Button */
     }
     
     #afiorello_button_styling {
