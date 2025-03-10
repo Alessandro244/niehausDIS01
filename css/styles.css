@@ -75,7 +75,7 @@ a:hover {
 }
 
 .afiorello_img_breite {
-    width: var(--width) /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
+    width: var(--width); /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
 }
 
 .afiorello_main-grid {
@@ -102,7 +102,7 @@ h1 {
 }
 
 table {
-    width: var(--width) /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
+    width: var(--width); /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
 }
 th {
     text-align: center;
@@ -132,7 +132,7 @@ tr:hover { /* Hover-Effekt für Zeilen */
     flex-wrap: wrap;
 }
 .afiorello_header img {
-width: var(--width) /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
+width: var(--width); /* Setzt width auf 100% durch vorher definierte CSS-Variable im :root Selektor */
 max-width: 150px;
 margin-right: 3%
 }
