@@ -317,7 +317,7 @@ summary {
         display: block;
     }
 
-    #afiorello_navigationsleiste .aktiv {
+    #afiorello_navigationsleiste.aktiv {
         display: block; /* Menü wird sichtbar durch Klick auf Button */
     }
     
