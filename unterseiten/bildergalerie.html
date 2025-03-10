@@ -116,10 +116,16 @@
             <p>Gefallen dir die Bilder von unserem Stadion oder die historischen Fotos besonders gut? Lies mehr darüber
                 nach auf den entsprechenden Seiten <a href="historie.html">zur Vereinsgeschichte</a> und zu unserem <a
                     href="standort.html">"Ziegenstall"</a>
-            <figure>
-                <img id="afiorello_logo_bildergalerie" src="../bilder/iglogo-frei.jpeg" alt="Logo der Ice Goats">
-                <figcaption>Ice Goats. Fearless & Unstoppable</figcaption>
-            </figure>
+        <picture>
+        <!-- Mobilansicht -->
+        <source media="(max-width: 600px)" srcset="../bilder/iglogo-frei.jpeg">
+
+         <!-- Laptopansicht -->
+        <source media="(max-width: 1024px)" srcset="dummy-laptop.jpg">
+
+         <!-- Desktopansicht -->
+         <source media="(min-width: 1025px)" srcset="dummy-desktop.jpg">
+</picture>
         </section>
     </main>
     <aside>
