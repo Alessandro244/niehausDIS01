@@ -358,4 +358,8 @@ details {
     .responsiv_display_none {
         display: none;
     }
+
+    .afiorello_section-index img {
+        max-height: 300px;
+    }
 }  
