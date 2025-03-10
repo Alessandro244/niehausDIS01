@@ -10,12 +10,12 @@
 // Nachladen von je 2 Bildern in der bildergalerie.html
 // Array mit Bildpfaden und Bildbeschreibungen
 const images = [
-    { src: "../bilder/fotograph_match.jpeg", caption: "Match" },
-    { src: "../bilder/interview_spieler.jpeg", caption: "Interview" },
-    { src: "../bilder/interview_spielerin.jpeg", caption: "Fans feuern das Team an" },
+    { src: "../bilder/fotograph_match.jpeg", caption: "Immer mit vollem Fokus dabei" },
+    { src: "../bilder/interview_spieler.jpeg", caption: "Unser Torjäger im Live Interview" },
+    { src: "../bilder/interview_spielerin.jpeg", caption: "Wir stehen immer Rede und Antwort" },
     { src: "../bilder/keinbahn.jpeg", caption: "Stadionvater Kurt Einbahn" },
-    { src: "../bilder/mannschaft_spieler.jpeg", caption: "Torhüter mit Glanzparade" },
-    { src: "../bilder/mannschaftsfoto_sieg.jpeg", caption: "siegreiche Ice Goats!" }
+    { src: "../bilder/mannschaft_spieler.jpeg", caption: "Ice Goats. Fearless & Unstoppable" },
+    { src: "../bilder/mannschaftsfoto_sieg.jpeg", caption: "Siegreich. Die Ice Goats!" }
 ];
 
 let index = 0; // Speichert, welches Bild als nächstes geladen wird
