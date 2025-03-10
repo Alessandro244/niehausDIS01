@@ -308,7 +308,7 @@ summary {
         margin-left: 20px;
     }
 
-    nav ul ul {
+    nav ul ul { /* Unterpunkte sollen sofort sichtbar sein bei kleinen Ansichten, da hovern für touch-user nicht möglich */
     position: relative;
     display: block; 
     }
@@ -323,14 +323,14 @@ summary {
     
     #afiorello_button_styling {
         display: flex;
-        justify-content: center; /* Zentriert horizontal */
-        align-items: center; /* Zentriert vertikal */
+        justify-content: center; 
+        align-items: center; 
         height: 40px;
         background-color: #0D141C; 
     }
 
      /* Gewährleistung von Responsivität bei kleinen Ansichten für Unterseiten und Startseite */
-    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2, .afiorello_main-grid, .afiorello_personen-grid {
+    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2, .afiorello_main-grid, .afiorello_personen-grid { /* Ändert mehrspaltige Elemente durch Flex und Grid zu einspaltigen Elemten für kleinere Ansichten */
         display: block;
     }
 
@@ -352,10 +352,10 @@ summary {
     }
 
     .word_wrap {
-        word-wrap: break-word;
+        word-wrap: break-word; 
     }
     .responsiv_display_none {
-        display: none;
+        display: none; /* Verbergt Inhalte bei kleineren Ansichten, wenn diese die Responsivität stören */
     }
 
     .afiorello_section-index img {
