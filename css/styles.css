@@ -8,8 +8,8 @@
 
 /* Startseite */
 
-:root {
-    --width: 100%;
+:root { 
+    --width: 100%; /* Definiert eine CSS-Variable mit dem Namen "--width" */
 }
 
 body.afiorello_index {
@@ -30,12 +30,11 @@ body.afiorello_index {
 body {
     margin: 0px;
     font-family: Arial; 
-    background: linear-gradient(to bottom, #172431ff, #233240ff);
-    /* Textfarbe */
+    background: linear-gradient(to bottom, #172431ff, #233240ff); /* Sorgt für Farbvelauf im Hintergrund*/
     color: #d0dce1ff;
 }
 
-body > *:not(nav):not(footer) {
+body > *:not(nav):not(footer) { /* Spricht alle direkten Kinderelemente vom body mit Ausnahme von der nav und dem footer an */
     margin: auto;
     font-family: Arial; 
     width: min(2000px, calc(70vw + 200px));
