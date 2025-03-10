@@ -331,11 +331,12 @@ details {
 
 
      /* dsnmfjksjdjh */
-    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2, .afiorello_main-grid {
+    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2, .afiorello_main-grid, .afiorello_personen-grid {
         display: block;
     }
 
     .afiorello_personen-grid img {
         margin-right: 0px;
+        max-width: 300px;
     }
 }  
