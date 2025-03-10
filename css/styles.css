@@ -190,47 +190,6 @@ nav ul ul li:hover {
     display: block;
 }
 
-@media (max-width: 768px) {
-
-    /* Seitenübergreifendes Styling bei kleinen Ansichten */ 
-    #afiorello_navigationsleiste {
-        display: none;
-    }
-
-    nav ul {
-        display: block; 
-    }
-    ul li ul{
-        margin-left: 20px;
-    }
-
-    nav ul ul {
-    position: relative;
-    display: block; 
-    }
-    #afiorello_hamburger_button {
-        display: block;
-    }
-
-    #afiorello_navigationsleiste.aktiv {
-        display: block; /* Menü wird sichtbar */
-    }
-    
-    #afiorello_button_styling {
-        display: flex;
-        justify-content: center; /* Zentriert horizontal */
-        align-items: center; /* Zentriert vertikal */
-        height: 40px;
-        background-color: #0D141C; 
-    }
-
-
-     /* dsnmfjksjdjh */
-    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2 {
-        display: block;
-    }
-}  
-
 /*Styling saison.html*/
 
 .afiorello_ligatabelle {
@@ -334,3 +293,45 @@ details {
     font-weight: bold;
     margin: 0px 0px 5px 0px;
 }
+
+/* Medienabfrage für Navbar und Responsivität bei kleinen Ansichten */
+@media (max-width: 768px) {
+
+    /* Seitenübergreifendes Styling bei kleinen Ansichten */ 
+    #afiorello_navigationsleiste {
+        display: none;
+    }
+
+    nav ul {
+        display: block; 
+    }
+    ul li ul{
+        margin-left: 20px;
+    }
+
+    nav ul ul {
+    position: relative;
+    display: block; 
+    }
+    #afiorello_hamburger_button {
+        display: block;
+    }
+
+    #afiorello_navigationsleiste.aktiv {
+        display: block; /* Menü wird sichtbar */
+    }
+    
+    #afiorello_button_styling {
+        display: flex;
+        justify-content: center; /* Zentriert horizontal */
+        align-items: center; /* Zentriert vertikal */
+        height: 40px;
+        background-color: #0D141C; 
+    }
+
+
+     /* dsnmfjksjdjh */
+    .afiorello_sektionen-grid, #afiorello_fanartikel, #afiorello_spalten_3_zu_2 {
+        display: block;
+    }
+}  
