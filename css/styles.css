@@ -351,4 +351,8 @@ details {
     #afiorello_logo_bildergalerie {
         max-width: 300px;
     }
+
+    .word_wrap {
+        word-wrap: break-word;
+    }
 }  
