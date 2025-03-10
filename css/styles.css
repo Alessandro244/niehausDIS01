@@ -355,4 +355,7 @@ details {
     .word_wrap {
         word-wrap: break-word;
     }
+    .responsiv_display_none {
+        display: none;
+    }
 }  
